@@ -1,0 +1,5 @@
+print("二つの整数を入力してください。")
+a=int(input("整数１:"))
+b=int(input("整数２:"))
+print("aの値はbの値の"+str(int(a/b*100))+"%です")
+print(f"aの値はbの値の{a/b*100:.0f}%です")
